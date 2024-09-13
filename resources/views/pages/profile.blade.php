@@ -29,8 +29,7 @@
               <div class="card-body box-profile">
                 <div class="text-center">
                   <img class="profile-user-img img-fluid img-circle"
-                       src="../assets/img/avatar4.png"
-                       alt="User profile picture">
+                       src="../logo/person.jpg" width="100px" height="100px">
                 </div>
  
                 <h3 class="profile-username text-center">{{ Auth::user()->name }} - {{ Auth::user()->username }}</h3>
